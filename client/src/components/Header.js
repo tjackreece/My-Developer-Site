@@ -27,22 +27,3 @@ const Header = () => {
 };
 
 export default Header;
-{
-	/* <div className="headerContainer">
-			<div className="h1Container"></div>
-			<nav className="navContainer">
-				<a id="home" href="home">
-					Home
-				</a>
-				<a id="about" href="about">
-					About
-				</a>
-				<a id="projects" href="projects">
-					Projects
-				</a>
-				<a id="contact" href="contact">
-					Contact
-				</a>
-			</nav>
-		</div> */
-}
