@@ -18,7 +18,9 @@ console.log("port is -> ", PORT);
 server.get("/api", (req, res) => {
 	res.json({ message: `TIM ROCKS` });
 });
-
+server.use((req, res) => {
+	res.status(404).json({ messge: "Great its working" });
+});
 server.listen(PORT, () => {
 	console.log(`listening on ${PORT}`);
 });
